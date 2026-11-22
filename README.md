@@ -1,69 +1,75 @@
 # Tone Forge
 
 [![Community Edition: Free](https://img.shields.io/badge/Community_Edition-Free-16a34a?style=for-the-badge)](https://hannes-software.com/tone-forge/download/)
-[![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/tone-forge/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/tone-forge/)
+[![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/tone-forge/download/) [![Windows](https://img.shields.io/badge/Windows-Desktop-2563eb?style=flat-square&logo=windows)](https://hannes-software.com/tone-forge/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/tone-forge/)
 
 > Patch, play, and refine a modular synthesizer in a live graph.
 
 Free Community Edition of a modular software synthesizer with a patch graph, audio and modulation routing, filters, envelopes, and effects.
 
-Connect oscillators, filters, envelopes, and effects. Follow the audio and modulation routes, then refine the patch while you hear the result.
+Wire oscillators, filters and modulators in an editable graph. Audition a note as you work, read the output waveform, and keep the effects chain visible beneath the patch.
 
 **Tone Forge Community Edition is free to download and use.** Use the core workflow locally and decide from real output.
 
 [Download Community Edition](https://hannes-software.com/tone-forge/download/) · [Product guide](https://hannes-software.com/tone-forge/) · [Help](https://hannes-software.com/tone-forge/help/) · [Report a bug](https://github.com/hannes-wan/tone-forge-official/issues/new?template=bug_report.yml)
 
-## Download Tone Forge 0.1.0
+## Download Tone Forge 0.1.1
 
 | Platform | Package | Use it when |
 | --- | --- | --- |
-| Linux x64 (APPIMAGE) | [tone-forge-0.1.0-linux-x64.AppImage](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.0/tone-forge-0.1.0-linux-x64.AppImage) | Portable Linux desktop package |
-| Linux x64 (DEB) | [tone-forge-0.1.0-linux-x64.deb](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.0/tone-forge-0.1.0-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
-| Linux x64 (RPM) | [tone-forge-0.1.0-linux-x64.rpm](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.0/tone-forge-0.1.0-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| Linux x64 (APPIMAGE) | [tone-forge-0.1.1-linux-x64.AppImage](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-linux-x64.AppImage) | Portable Linux desktop package |
+| Linux x64 (DEB) | [tone-forge-0.1.1-linux-x64.deb](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
+| Linux x64 (RPM) | [tone-forge-0.1.1-linux-x64.rpm](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| Windows x64 | [tone-forge-0.1.1-windows-x64-setup.exe](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-windows-x64-setup.exe) | Guided Windows installer |
 
 Checksums, installation notes, and the complete platform matrix live on the [official download page](https://hannes-software.com/tone-forge/download/).
 
 ## System requirements
 
+- **Windows:** Windows 10 or Windows 11 on x64.
 - **Linux:** a mainstream x64 distribution with glibc 2.35 or newer, such as Ubuntu 22.04+, Debian 12+, Fedora, or openSUSE (AppImage, DEB, and RPM packages).
 - **Disk space:** a few hundred megabytes free for the application and its bundled resources.
 
 ## Why Tone Forge exists
 
-Tone Forge is a native sound design workbench for musicians and producers who want to see and edit the structure of their synth patches.
+Tone Forge is a desktop modular synthesizer for sound design, synthesis lessons and making your own patches on Windows x64 and Linux x64.
 
 > **Edition boundary:** The technical sections below describe the complete product surface and can include optional licensed workflows. The exact free Community Edition scope is listed separately below.
 
-### Hear how each module changes the patch.
+### Build a patch for the sound you need
 
-Build audio and modulation paths in a native graph and audition the result as you edit.
+Three ways to use the graph, the parameter inspector and the output monitor together.
 
-### Build a modular signal path
+### Patch the signal path
 
-Start from a sound source, add filters and gain stages, and trace the connections to your output.
+Follow each oscillator through the mixer, filter and output. Inspect a module by selecting it in the graph.
 
-### Route modulation explicitly
+### Design the motion
 
-Connect envelopes and modulation sources to the parameters they control. Inspect the patch as you listen to changes.
+Edit the contour of a multisegment function generator and route it to a parameter such as filter cutoff.
 
-### Shape and audition sound
+### Audition while you edit
 
-Use the desktop instrument to edit and play a patch. Shape the sound with effects after building the source and modulation paths.
+Hold C4 or play through a configured MIDI input. Compare parameter changes against the same note and watch the stereo monitor.
 
-### Start with a signal path
+### Process the output
 
-- Connect a sound source to a filter, gain stage and output.
-- Read the graph to see exactly which stage receives the signal.
+Add a stereo effect after the synth graph. Open its controls in the details panel and compare the sound with processing bypassed.
 
-### Give parameters a motion you can hear
+### Give a bass patch an audible attack
 
-- Use envelopes and modulation sources to shape a supported control over time.
-- Audition the same notes while you change a route or amount, so the result is easy to compare.
+- Use a short rising segment on cutoff so the upper harmonics appear at the start of the note.
+- Close the filter more slowly and hold the note long enough to check how much of its body stays audible.
 
-### Shape a patch in context
+### Create a wide sustained texture
 
-- Layer effects after the sound source and modulation are working together.
-- Use the standalone editor to audition and adjust the synthesis patch at your desk.
+- Mix two oscillators and use a small fine-tune offset to hear their interaction.
+- Audition the patch by itself before placing reverb on the stereo output. Use the release tail to choose a decay.
+
+### Teach signal flow from a working example
+
+- Select a module and keep its details beside the cables so the class can trace where sound and modulation go.
+- Make a single filter edit between two C4 auditions and ask students to describe which part of the spectrum changed.
 
 ## Try a first workflow
 
@@ -84,6 +90,32 @@ Connect an envelope to a modulation input on the filter or gain control. Compare
 
 Expanded workflows require an effective license. See the official product page for current licensing availability.
 
+## See the real desktop workflow
+
+### Live filter audition
+
+![Live filter audition — Tone Forge](https://hannes-software.com/assets/tone-forge/screenshots/live-filter-audition-01.webp)
+
+Two saw oscillators feed a mixer and low-pass filter. The monitor on the right shows the output of a held C4.
+
+### Oscillators and audio routing
+
+![Oscillators and audio routing — Tone Forge](https://hannes-software.com/assets/tone-forge/screenshots/oscillator-graph-01.webp)
+
+Signal starts at the oscillators, passes through the mixer and filter, and reaches the output module.
+
+### Six-segment function generator
+
+![Six-segment function generator — Tone Forge](https://hannes-software.com/assets/tone-forge/screenshots/function-envelope-01.webp)
+
+The graph shows the modulation lead to the filter. The inspector shows the envelope and individual curve segments.
+
+### Reverb on the output bus
+
+![Reverb on the output bus — Tone Forge](https://hannes-software.com/assets/tone-forge/screenshots/output-reverb-01.webp)
+
+A reverb block can sit after synthesis. The oscillator and filter connections remain visible above the effects lane.
+
 ## Local-first by design
 
 Tone Forge is a desktop workflow. Your working files stay on the machine unless you deliberately export or share them. The product page documents the exact capability boundary so the focused workflow can be evaluated on real evidence.
@@ -91,6 +123,9 @@ Tone Forge is a desktop workflow. Your working files stay on the machine unless 
 ## Documentation
 
 - [Build and Audition Your First Modular Synth Patch](https://hannes-software.com/tone-forge/help/build-a-first-modular-patch/)
+- [Compare dry and wet output in Tone Forge](https://hannes-software.com/tone-forge/help/compare-dry-and-wet-synth-effects/)
+- [Hear filter cutoff and resonance in a modular synth](https://hannes-software.com/tone-forge/help/filter-cutoff-and-resonance/)
+- [Shape a synth patch with an envelope](https://hannes-software.com/tone-forge/help/shape-a-patch-with-an-envelope/)
 
 ## Frequently asked questions
 
@@ -99,28 +134,35 @@ Tone Forge is a desktop workflow. Your working files stay on the machine unless 
 <details>
 <summary><strong>What is Tone Forge?</strong></summary>
 
-Tone Forge is a modular software synthesizer. You design a sound by connecting oscillators, filters, envelopes, and effects in an editable patch graph.
+Tone Forge is a standalone desktop modular synthesizer. You connect oscillators, filters, gain stages and modulators in a graph and play the result through an output effects chain.
 
 </details>
 
 <details>
-<summary><strong>Can I edit the graph while auditioning a patch?</strong></summary>
+<summary><strong>Can I change the synth patch while audio is running?</strong></summary>
 
-Yes. You can audition a patch and make live edits to the graph, including changes to supported audio and modulation routes.
-
-</details>
-
-<details>
-<summary><strong>Does Tone Forge have a VST3 instrument?</strong></summary>
-
-Tone Forge has a separate VST3 instrument target as well as the standalone editor. The download notes describe which components ship in each installer.
+Yes. Start audio, select an oscillator or filter, and edit its controls in the details panel. Audition the same C4 before and after a change to hear what it did.
 
 </details>
 
 <details>
-<summary><strong>Which Linux installer should I choose?</strong></summary>
+<summary><strong>Can I use a MIDI keyboard?</strong></summary>
 
-Use the DEB package on a compatible Debian-based system, RPM on a compatible RPM-based system, or the AppImage for a portable x64 build. The Downloads page lists the current files.
+The standalone editor has MIDI input controls under Perform. You can also use the Hold to audition C4 button without a keyboard.
+
+</details>
+
+<details>
+<summary><strong>Which Tone Forge installer should I download?</strong></summary>
+
+Download the Windows x64 setup (.exe) for Windows 10 or later. This direct installer is unsigned. On Linux x64, choose the DEB, RPM, or portable AppImage.
+
+</details>
+
+<details>
+<summary><strong>Which Tone Forge installer includes the VST3 plugin?</strong></summary>
+
+The Windows x64 installer can install the standalone synthesizer, the VST3 instrument, or both. The Linux AppImage, DEB and RPM contain the standalone synthesizer.
 
 </details>
 
@@ -134,4 +176,4 @@ Use the DEB package on a compatible Debian-based system, RPM on a compatible RPM
 
 ## Official repository
 
-This is the official public distribution and community repository for Tone Forge: verified release links, documentation routes, issue intake, and security guidance. Product development happens in a private workspace; public issues here are the right place to report reproducible product behavior and request focused improvements.
+This is the official public distribution and community repository for Tone Forge: verified release links, current screenshots, documentation routes, issue intake, and security guidance. Product development happens in a private workspace; public issues here are the right place to report reproducible product behavior and request focused improvements.
