@@ -65,6 +65,20 @@ Use the desktop instrument to edit and play a patch. Shape the sound with effect
 - Layer effects after the sound source and modulation are working together.
 - Use the standalone editor to audition and adjust the synthesis patch at your desk.
 
+## Try a first workflow
+
+### Trace the audio path and establish a reference note
+
+Find the source, mixer, filter, and output in the starting sound. Select the oscillator and open its controls while following the audio connections through the graph. Start the audio engine and audition C4 at a comfortable level. Check the output monitor as you hold and release the same note. If the output stays quiet, trace the route to the output and check the source and gain levels before making more edits.
+
+### Hear a change in the source and filter
+
+Change the selected oscillator's waveform and play C4 again. The notes used for the comparison stay the same, so you can hear how the harmonic content of the source changes. Try the filter cutoff next and compare a few positions. Choose a setting that gives you an audible change with a modest turn. Check the edges into and out of the filter so the selected module is in the audio path you are actually hearing.
+
+### Audition an envelope and an output effect
+
+Connect an envelope to a modulation input on the filter or gain control. Compare a short attack with a slow one on the same note, then vary the release separately. Check the envelope's destination and modulation amount if the comparison is hard to hear. Once the dry patch is playing correctly, add a single output effect and audition a short phrase. Leave space between notes so you can hear what the effect does after the note ends.
+
 ## Community Edition is genuinely useful
 
 
