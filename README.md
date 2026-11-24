@@ -13,14 +13,14 @@ Wire oscillators, filters and modulators in an editable graph. Audition a note a
 
 [Download Community Edition](https://hannes-software.com/tone-forge/download/) · [Product guide](https://hannes-software.com/tone-forge/) · [Help](https://hannes-software.com/tone-forge/help/) · [Report a bug](https://github.com/hannes-wan/tone-forge-official/issues/new?template=bug_report.yml)
 
-## Download Tone Forge 0.1.1
+## Download Tone Forge 0.1.2
 
 | Platform | Package | Use it when |
 | --- | --- | --- |
-| Linux x64 (APPIMAGE) | [tone-forge-0.1.1-linux-x64.AppImage](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-linux-x64.AppImage) | Portable Linux desktop package |
-| Linux x64 (DEB) | [tone-forge-0.1.1-linux-x64.deb](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
-| Linux x64 (RPM) | [tone-forge-0.1.1-linux-x64.rpm](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
-| Windows x64 | [tone-forge-0.1.1-windows-x64-setup.exe](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.1/tone-forge-0.1.1-windows-x64-setup.exe) | Guided Windows installer |
+| Linux x64 (APPIMAGE) | [tone-forge-0.1.2-linux-x64.AppImage](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-linux-x64.AppImage) | Portable Linux desktop package |
+| Linux x64 (DEB) | [tone-forge-0.1.2-linux-x64.deb](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
+| Linux x64 (RPM) | [tone-forge-0.1.2-linux-x64.rpm](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| Windows x64 | [tone-forge-0.1.2-windows-x64-setup.exe](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-windows-x64-setup.exe) | Guided Windows installer |
 
 Checksums, installation notes, and the complete platform matrix live on the [official download page](https://hannes-software.com/tone-forge/download/).
 
@@ -88,7 +88,7 @@ Connect an envelope to a modulation input on the filter or gain control. Compare
 ## Community Edition is genuinely useful
 
 
-Expanded workflows require an effective license. See the official product page for current licensing availability.
+Optional licensed workflows are available for people who need the expanded feature set. Licensing details belong on the website; the Community Edition remains the free way to evaluate and use the core product.
 
 ## See the real desktop workflow
 

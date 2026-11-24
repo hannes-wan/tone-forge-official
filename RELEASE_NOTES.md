@@ -1,7 +1,8 @@
 **Tone Forge Community Edition is free to download and use.**
 
-Tone Forge 0.1.1 brings the modular synthesizer to Windows x64 and continues standalone support for Linux x64.
+Tone Forge adds a VST3 instrument and permanent sound-library unlock to the Microsoft Store edition.
 
-- Choose the standalone synthesizer, the VST3 plugin, or both in the unsigned Windows x64 installer.
-- Connect oscillators, filters and envelopes in the patch graph. Hold a note to audition changes to modulation and stereo effects.
-- Choose AppImage, DEB or RPM for the standalone Linux x64 synthesizer.
+- Open the Microsoft Store edition once to install the VST3 instrument for your Windows DAW. Rescan plug-ins in the DAW if needed.
+- Purchase or restore permanent sound saving and loading using your Microsoft Store account. The standalone instrument and its Store VST3 share this entitlement.
+- Save a patch graph with its oscillators, filters and modulation connections, then reopen the sound in a later session.
+- Updated the Windows application icon.
