@@ -1,7 +1,7 @@
 # Tone Forge
 
 [![Community Edition: Free](https://img.shields.io/badge/Community_Edition-Free-16a34a?style=for-the-badge)](https://hannes-software.com/tone-forge/download/)
-[![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/tone-forge/download/) [![Windows](https://img.shields.io/badge/Windows-Desktop-2563eb?style=flat-square&logo=windows)](https://hannes-software.com/tone-forge/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/tone-forge/)
+[![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/tone-forge/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/tone-forge/)
 
 > Patch, play, and refine a modular synthesizer in a live graph.
 
@@ -26,7 +26,6 @@ Checksums, installation notes, and the complete platform matrix live on the [off
 
 ## System requirements
 
-- **Windows:** Windows 10 or Windows 11 on x64.
 - **Linux:** a mainstream x64 distribution with glibc 2.35 or newer, such as Ubuntu 22.04+, Debian 12+, Fedora, or openSUSE (AppImage, DEB, and RPM packages).
 - **Disk space:** a few hundred megabytes free for the application and its bundled resources.
 
@@ -134,35 +133,42 @@ Tone Forge is a desktop workflow. Your working files stay on the machine unless 
 <details>
 <summary><strong>What is Tone Forge?</strong></summary>
 
-Tone Forge is a standalone desktop modular synthesizer. You connect oscillators, filters, gain stages and modulators in a graph and play the result through an output effects chain.
+Tone Forge is a native desktop modular synthesizer and Windows VST3 instrument. You wire oscillators, filters, envelopes, modulators, and stereo output effects in one interactive patch graph with real-time audio auditioning.
 
 </details>
 
 <details>
 <summary><strong>Can I change the synth patch while audio is running?</strong></summary>
 
-Yes. Start audio, select an oscillator or filter, and edit its controls in the details panel. Audition the same C4 before and after a change to hear what it did.
+Yes. Start audio, select an oscillator, filter, or envelope, and adjust parameters live in the inspector. Use Hold to audition C4 or a connected MIDI keyboard to compare your sound before and after every tweak.
 
 </details>
 
 <details>
-<summary><strong>Can I use a MIDI keyboard?</strong></summary>
+<summary><strong>Can I use a MIDI keyboard or DAW?</strong></summary>
 
-The standalone editor has MIDI input controls under Perform. You can also use the Hold to audition C4 button without a keyboard.
+Yes. The standalone app supports live MIDI keyboard input under Perform plus a built-in Hold to audition C4 trigger. On Windows x64, Tone Forge also ships a matching VST3 instrument plugin for your DAW.
 
 </details>
 
 <details>
 <summary><strong>Which Tone Forge installer should I download?</strong></summary>
 
-Download the Windows x64 setup (.exe) for Windows 10 or later. This direct installer is unsigned. On Linux x64, choose the DEB, RPM, or portable AppImage.
+On Windows 10 or later (x64), download the official Windows x64 installer (.exe) directly from the download page or install Tone Forge from Microsoft Store. On Linux x64, choose the DEB, RPM, or portable AppImage. Every direct download lists its SHA-256 checksum.
 
 </details>
 
 <details>
 <summary><strong>Which Tone Forge installer includes the VST3 plugin?</strong></summary>
 
-The Windows x64 installer can install the standalone synthesizer, the VST3 instrument, or both. The Linux AppImage, DEB and RPM contain the standalone synthesizer.
+Both the Windows x64 direct installer and the Microsoft Store edition include the standalone synthesizer and the Windows VST3 instrument plugin. The Linux AppImage, DEB, and RPM packages deliver the native standalone synthesizer.
+
+</details>
+
+<details>
+<summary><strong>Does Tone Forge work completely offline?</strong></summary>
+
+Yes. Synthesis, patch routing, MIDI performance, and preset loading run 100% locally on your CPU with no cloud account, subscription, or audio upload.
 
 </details>
 
