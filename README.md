@@ -13,6 +13,16 @@ Wire oscillators, filters and modulators in an editable graph. Audition a note a
 
 [Download Community Edition](https://hannes-software.com/tone-forge/download/) · [Product guide](https://hannes-software.com/tone-forge/) · [Help](https://hannes-software.com/tone-forge/help/) · [Report a bug](https://github.com/hannes-wan/tone-forge-official/issues/new?template=bug_report.yml)
 
+<!-- HANNES_STUDIO_HERO_START -->
+### Hear & See It Live — Zero Subscription, 100% Offline
+
+**Zero-subscription native modular synthesizer with visible patch cables, resonant filters, and VST3 recall.**
+
+[![Watch Interactive Audio A/B Demo](https://img.shields.io/badge/▶_Hear_Live_Audio_A%2FB-Watch_Walkthrough-2563eb?style=for-the-badge)](https://hannes-software.com/watch/tone-forge/?utm_source=github&utm_medium=readme&utm_campaign=tone-forge-hero) [![YouTube Short](https://img.shields.io/badge/YouTube-10s_Ear_Test-dc2626?style=for-the-badge&logo=youtube)](https://hannes-software.com/watch/tone-forge/)
+
+[![tone-forge desktop workbench](https://hannes-software.com/assets/tone-forge/screenshots/live-filter-audition-01.webp)](https://hannes-software.com/watch/tone-forge/?utm_source=github&utm_medium=readme&utm_campaign=tone-forge-hero)
+<!-- HANNES_STUDIO_HERO_END -->
+
 ## Download Tone Forge 0.1.3
 
 | Platform | Package | Use it when |
