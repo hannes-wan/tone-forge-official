@@ -1,7 +1,6 @@
 **Tone Forge Community Edition is free to download and use.**
 
-Tone Forge 0.1.3 adds official Apple Silicon and Intel macOS support for the live modular synthesizer patch graph, oscillators, filters, envelopes, modulation routing, and audio effects.
+Tone Forge 0.1.4 updates the modular software synthesizer patch graph with the unified license-ui-core License & Upgrade modal across all platforms and synchronizes standalone and VST3 releases for Linux, Windows, macOS Universal, Microsoft Store, and Mac App Store.
 
-- Brings the live modular synthesizer patch graph with oscillators, filters, envelopes, audio routing, modulation matrices, and stereo effects to Apple Silicon and Intel macOS with Developer ID signing, Apple notarization, and stapled Gatekeeper verification.
-- Adds sandboxed Mac App Store packaging with StoreKit non-consumable permanent unlock support and export-compliance metadata.
-- Synchronizes Linux, Windows, and macOS release manifests and store packaging identifiers on version 0.1.3.
+- Adopts the shared license-ui-core commercial License & Upgrade modal with consistent dark/light styling, 10-language copy, and strict Website Direct vs. Store isolation.
+- Synchronizes Linux, Windows, and macOS Universal standalone + VST3 modular synthesizer builds (oscillators, filters, envelopes, audio routing, modulation, and effects) and Store packages on version 0.1.4.
