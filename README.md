@@ -1,7 +1,7 @@
 # Tone Forge
 
 [![Community Edition: Free](https://img.shields.io/badge/Community_Edition-Free-16a34a?style=for-the-badge)](https://hannes-software.com/tone-forge/download/)
-[![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/tone-forge/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/tone-forge/)
+[![Linux](https://img.shields.io/badge/Linux-Desktop-f59e0b?style=flat-square&logo=linux)](https://hannes-software.com/tone-forge/download/) [![Windows](https://img.shields.io/badge/Windows-Desktop-2563eb?style=flat-square&logo=windows)](https://hannes-software.com/tone-forge/download/) [![macOS](https://img.shields.io/badge/macOS-Desktop-64748b?style=flat-square&logo=apple)](https://hannes-software.com/tone-forge/download/) [![Local first](https://img.shields.io/badge/Workflow-Local--first-7c3aed?style=flat-square)](https://hannes-software.com/tone-forge/)
 
 > Patch, play, and refine a modular synthesizer in a live graph.
 
@@ -9,34 +9,27 @@ Free Community Edition of a modular software synthesizer with a patch graph, aud
 
 Wire oscillators, filters and modulators in an editable graph. Audition a note as you work, read the output waveform, and keep the effects chain visible beneath the patch.
 
-**Tone Forge Community Edition is free to download and use.** Use the core workflow locally and decide from real output.
+**Tone Forge Community Edition is free to download and use.** Full modular patch graph, live audio auditioning, MIDI keyboard performance, stereo output effects, and the Windows VST3 instrument free forever.
 
 [Download Community Edition](https://hannes-software.com/tone-forge/download/) · [Product guide](https://hannes-software.com/tone-forge/) · [Help](https://hannes-software.com/tone-forge/help/) · [Report a bug](https://github.com/hannes-wan/tone-forge-official/issues/new?template=bug_report.yml)
 
-<!-- HANNES_STUDIO_HERO_START -->
-### Hear & See It Live — Zero Subscription, 100% Offline
-
-**Zero-subscription native modular synthesizer with visible patch cables, resonant filters, and VST3 recall.**
-
-[![Watch Interactive Audio A/B Demo](https://img.shields.io/badge/▶_Hear_Live_Audio_A%2FB-Watch_Walkthrough-2563eb?style=for-the-badge)](https://hannes-software.com/watch/tone-forge/?utm_source=github&utm_medium=readme&utm_campaign=tone-forge-hero) [![YouTube Short](https://img.shields.io/badge/YouTube-10s_Ear_Test-dc2626?style=for-the-badge&logo=youtube)](https://hannes-software.com/watch/tone-forge/)
-
-[![tone-forge desktop workbench](https://hannes-software.com/assets/tone-forge/screenshots/live-filter-audition-01.webp)](https://hannes-software.com/watch/tone-forge/?utm_source=github&utm_medium=readme&utm_campaign=tone-forge-hero)
-<!-- HANNES_STUDIO_HERO_END -->
-
-## Download Tone Forge 0.1.2
+## Download Tone Forge 0.1.3
 
 | Platform | Package | Use it when |
 | --- | --- | --- |
-| Linux x64 (APPIMAGE) | [tone-forge-0.1.2-linux-x64.AppImage](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-linux-x64.AppImage) | Portable Linux desktop package |
-| Linux x64 (DEB) | [tone-forge-0.1.2-linux-x64.deb](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
-| Linux x64 (RPM) | [tone-forge-0.1.2-linux-x64.rpm](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
-| Windows x64 | [tone-forge-0.1.2-windows-x64-setup.exe](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.2/tone-forge-0.1.2-windows-x64-setup.exe) | Guided Windows installer |
+| Linux x64 (APPIMAGE) | [tone-forge-0.1.3-linux-x64.AppImage](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.3/tone-forge-0.1.3-linux-x64.AppImage) | Portable Linux desktop package |
+| Linux x64 (DEB) | [tone-forge-0.1.3-linux-x64.deb](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.3/tone-forge-0.1.3-linux-x64.deb) | Debian, Ubuntu, Mint, and compatible systems |
+| Linux x64 (RPM) | [tone-forge-0.1.3-linux-x64.rpm](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.3/tone-forge-0.1.3-linux-x64.rpm) | Fedora, RHEL, openSUSE, and compatible systems |
+| macOS universal | [tone-forge-0.1.3-macos-universal.dmg](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.3/tone-forge-0.1.3-macos-universal.dmg) | macOS disk image |
+| Windows x64 | [tone-forge-0.1.3-windows-x64-setup.exe](https://github.com/hannes-wan/tone-forge-official/releases/download/v0.1.3/tone-forge-0.1.3-windows-x64-setup.exe) | Guided Windows installer |
 
 Checksums, installation notes, and the complete platform matrix live on the [official download page](https://hannes-software.com/tone-forge/download/).
 
 ## System requirements
 
+- **Windows:** Windows 10 or Windows 11 on x64.
 - **Linux:** a mainstream x64 distribution with glibc 2.35 or newer, such as Ubuntu 22.04+, Debian 12+, Fedora, or openSUSE (AppImage, DEB, and RPM packages).
+- **macOS:** a current 64-bit macOS release.
 - **Disk space:** a few hundred megabytes free for the application and its bundled resources.
 
 ## Why Tone Forge exists
@@ -96,6 +89,9 @@ Connect an envelope to a modulation input on the filter or gain control. Compare
 
 ## Community Edition is genuinely useful
 
+- Editable modular patch graph
+- Live audition & MIDI input
+- Windows VST3 & standalone app
 
 Optional licensed workflows are available for people who need the expanded feature set. Licensing details belong on the website; the Community Edition remains the free way to evaluate and use the core product.
 

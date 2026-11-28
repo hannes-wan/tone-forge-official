@@ -1,8 +1,7 @@
 **Tone Forge Community Edition is free to download and use.**
 
-Tone Forge adds a VST3 instrument and permanent sound-library unlock to the Microsoft Store edition.
+Tone Forge 0.1.3 adds official Apple Silicon and Intel macOS support for the live modular synthesizer patch graph, oscillators, filters, envelopes, modulation routing, and audio effects.
 
-- Open the Microsoft Store edition once to install the VST3 instrument for your Windows DAW. Rescan plug-ins in the DAW if needed.
-- Purchase or restore permanent sound saving and loading using your Microsoft Store account. The standalone instrument and its Store VST3 share this entitlement.
-- Save a patch graph with its oscillators, filters and modulation connections, then reopen the sound in a later session.
-- Updated the Windows application icon.
+- Brings the live modular synthesizer patch graph with oscillators, filters, envelopes, audio routing, modulation matrices, and stereo effects to Apple Silicon and Intel macOS with Developer ID signing, Apple notarization, and stapled Gatekeeper verification.
+- Adds sandboxed Mac App Store packaging with StoreKit non-consumable permanent unlock support and export-compliance metadata.
+- Synchronizes Linux, Windows, and macOS release manifests and store packaging identifiers on version 0.1.3.
